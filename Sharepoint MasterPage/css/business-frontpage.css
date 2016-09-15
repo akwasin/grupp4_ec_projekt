@@ -1,0 +1,73 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 200px;
+    background: url('../images/business-header.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.navbar-inverse {
+    background-color: #eb1f07;
+    border-color: #eb1f07;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #ffffff;
+ }
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #750f03;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #ffffff;
+    color: #eb1f07;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #ffffff;
+}
+
+.navbar-brand img {
+    max-width: 60px;
+}
+
+.navbar-brand {
+    padding: 8px 15px;
+}
+
+.tagline {
+    color: #333333;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}

@@ -123,6 +123,7 @@
     <Content Include="js\jquery.js" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="Repo-testfil.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

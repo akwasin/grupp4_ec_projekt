@@ -13,7 +13,7 @@ body {
 
 .business-header {
     height: 200px;
-    background: url('../images/business-header.jpg') center center no-repeat scroll;
+    /* background: url('../images/business-header.jpg') center center no-repeat scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -70,4 +70,9 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
 }

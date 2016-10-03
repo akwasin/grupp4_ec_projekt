@@ -33,5 +33,28 @@ if (pageTitle.includes("ekonomi")) {
 } else if (pageTitle.includes("nyheter")) {
     console.log("url innehaller ordet nyheter");
 } else if (pageTitle.includes("sok")) {
+    console.log("url innehaller ordet sok");
+};
+
+var pageURL = document.URL;
+var pageTitleUnformatted = pageURL.split("/");
+var pageTitle = pageTitleUnformatted[5];
+
+if (pageTitle.includes("ekonomi")) {
+    console.log("url innehaller ordet ekonomi");
+    $("#getHeaderImage").css('background-image', 'url("http://devsp-04/sites/ica/_catalogs/masterpage/images/header_ekonomi.jpg")');
+} else if (pageTitle.includes("hr")) {
+    console.log("url innehaller ordet hr");
+    $("#getHeaderImage").css('background-image', 'url("http://devsp-04/sites/ica/_catalogs/masterpage/images/header_hr.jpg")');
+} else if (pageTitle.includes("it")) {
+    console.log("url innehaller ordet it");
+    $("#getHeaderImage").css('background-image', 'url("http://devsp-04/sites/ica/_catalogs/masterpage/images/header_it.jpg")');
+} else if (pageTitle.includes("personal")) {
+    console.log("url innehaller ordet personal");
+    $("#getHeaderImage").css('background-image', 'url("http://devsp-04/sites/ica/_catalogs/masterpage/images/header_personal.jpg")');
+} else if (pageTitle.includes("nyheter")) {
+    console.log("url innehaller ordet nyheter");
+    $("#getHeaderImage").css('background-image', 'url("http://devsp-04/sites/ica/_catalogs/masterpage/images/header_nyheter.jpg")');
+} else if (pageTitle.includes("sok")) {
     console.log("url innehaller ordet sök");
 };
